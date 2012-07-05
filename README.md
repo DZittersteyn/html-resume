@@ -1,4 +1,4 @@
 html-resume
 ===========
 
-HTML &amp; CSS version of my resume
+HTML &amp; CSS version of my resume.
