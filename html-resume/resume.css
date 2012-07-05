@@ -24,8 +24,74 @@ h1{
 	border-bottom: medium solid #ddd;
 }
 
+h2{
+	font-family: 'Rosario', sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+}
 
 
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+span{
+	display:block;
+}
+
+table{
+	border-collapse: collapse;
+
+	vertical-align: top;
+	text-align: left;
+
+	font-family: 'Rosario', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+tbody th, thead th{
+	padding-left: 1em;
+	padding-right: 0;
+}
+tbody th:first-child, thead th:first-child{
+	width: 10em;
+	
+	text-align: right;
+	vertical-align: top;
+
+	border-right: medium solid #ddd;
+	padding-left: 0;
+	padding-right: 1em;
+}
+
+td {
+	text-align: left;
+	padding-left: 1em;
+}
+
+
+.title:before{
+	content:"»";
+
+	display: inline-block;
+	width: 2em;
+}
+
+.spec:before{
+	content:"›";
+	
+	display:inline-block;
+	width: 3em;
+}
+
+.desc:before{
+	content: "";
+
+	display: inline-block;
+	width: 3em;
+}
 
 
 
