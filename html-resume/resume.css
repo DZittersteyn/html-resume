@@ -5,6 +5,21 @@ body{
 		Adapted, brightness and contrast raised (100 & 40 resp.)
 	*/
 	background-image: url(img/low_contrast_linen.png);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+div{overflow:auto;}
+
+hr{
+	border: 0;
+	color: #ddd;
+	background-color: #ddd;
+	height: 0.5ex;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 h1{
@@ -19,15 +34,13 @@ h1{
 	font-style: italic;
 	font-size: 5em;
 	color: #ddd;
-	
-	border-top: medium solid #ddd;
-	border-bottom: medium solid #ddd;
 }
 
 h2{
-	font-family: 'Rosario', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
 	font-size: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -42,19 +55,26 @@ span{
 
 table{
 	border-collapse: collapse;
+	margin-bottom:1em;
 
 	vertical-align: top;
 	text-align: left;
-
-	font-family: 'Rosario', sans-serif;
-	font-weight: 400;
-	font-size: 1em;
 }
 
 tbody th, thead th{
 	padding-left: 1em;
 	padding-right: 0;
 }
+
+tbody th{
+	font-weight: 400;
+	font-style: italic;
+}
+
+thead th{
+	font-weight: 700;
+}
+
 tbody th:first-child, thead th:first-child{
 	width: 10em;
 	
@@ -71,29 +91,52 @@ td {
 	padding-left: 1em;
 }
 
+#time .ui-button-text{
+	padding: 0 0.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.latex{
+	content: "a";
+}
+
+#Timeselect a{
+	padding: 0 0.3em;
+}
+
+.desc,.spec{
+	color: #999;
+}
 
 .title:before{
 	content:"»";
 
 	display: inline-block;
-	width: 2em;
+	width: 1.5em;
 }
 
 .spec:before{
 	content:"›";
 	
 	display:inline-block;
-	width: 3em;
+	width: 1em;
+	margin-left: 3em;
 }
 
 .desc:before{
 	content: "";
 
 	display: inline-block;
-	width: 3em;
+	width: 4em;
 }
 
-
+.period:not(:first-child):before{
+	content:"&";
+	padding-right: 3.5em;
+	display:block;
+}
 
 
 /* blocks */
@@ -121,5 +164,17 @@ td {
 	width: 50%;
 
 	float:left;
+
 }
 
+#Timeselect{
+	text-align:right;
+	margin-top: 1em;
+}
+#time{
+	display: inline;
+}
+
+#time input{
+	height: 1em;
+}
