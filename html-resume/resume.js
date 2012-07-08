@@ -1,21 +1,26 @@
 $(function(){
+
+
 	$('#time').change(function(obj){
-		console.log(obj.target.value)
 		if(obj.target.value == 1){
-			console.log(1);
-			$(".1" ).slideDown('slow','swing');
-			$(".5" ).slideUp('slow','swing');
-			$(".15").slideUp('slow','swing');
+			$("#minutes").html("");
+			$(".1" ).show();
+			$(".5" ).hide();
+			$(".15").hide();
 		}else if(obj.target.value == 5){
-			console.log(5);
-			$(".1" ).slideDown('slow','swing');
-			$(".5" ).slideDown('slow','swing');
-			$(".15").slideUp('slow','swing');
+			$("#minutes").html("s");
+			$(".1" ).show();
+			$(".5" ).show();
+			$(".15").hide();
 		}else if(obj.target.value == 15){
-			console.log(15);
-			$(".1" ).slideDown('slow','swing');
-			$(".5" ).slideDown('slow','swing');
-			$(".15").slideDown('slow','swing');
+			$("#minutes").html("s");
+			$(".1" ).show();
+			$(".5" ).show();
+			$(".15").show();
 		}
 	});
-})
+
+
+	$('#time').prop('selectedIndex','1');
+
+});

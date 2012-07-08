@@ -10,7 +10,13 @@ body{
 	font-size: 1em;
 }
 
-div{overflow:auto;}
+div{
+	overflow:auto;
+}
+
+div.content{
+	padding-bottom: 1em;
+}
 
 hr{
 	border: 0;
@@ -41,6 +47,7 @@ h2{
 	font-weight: 700;
 	font-size: 1.5em;
 	margin-bottom: 0.5em;
+	margin-top: 0;
 }
 
 
@@ -49,7 +56,7 @@ a{
 	text-decoration: none;
 }
 
-span{
+.content span{
 	display:block;
 }
 
