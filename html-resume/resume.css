@@ -10,11 +10,8 @@ body{
 	font-size: 1em;
 }
 
-div{
-	overflow:auto;
-}
-
 div.content{
+	overflow:auto;
 	padding-bottom: 1em;
 }
 
@@ -39,15 +36,19 @@ h1{
 	font-weight: 700;
 	font-style: italic;
 	font-size: 5em;
+	
 	color: #ddd;
 }
 
 h2{
+	margin-top: 0;
+	margin-bottom: 0.5em;
+
+
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
+	font-style: normal;
 	font-size: 1.5em;
-	margin-bottom: 0.5em;
-	margin-top: 0;
 }
 
 
@@ -56,8 +57,8 @@ a{
 	text-decoration: none;
 }
 
-.content span{
-	display:block;
+.content p{
+	margin: 0;
 }
 
 table{
@@ -80,6 +81,7 @@ tbody th{
 
 thead th{
 	font-weight: 700;
+	font-style: normal;
 }
 
 tbody th:first-child, thead th:first-child{
@@ -88,7 +90,7 @@ tbody th:first-child, thead th:first-child{
 	text-align: right;
 	vertical-align: top;
 
-	border-right: medium solid #ddd;
+	border-right: 0.5ex solid #ddd;
 	padding-left: 0;
 	padding-right: 1em;
 }
@@ -103,14 +105,6 @@ td {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
 	font-size: 1em;
-}
-
-.latex{
-	content: "a";
-}
-
-#Timeselect a{
-	padding: 0 0.3em;
 }
 
 .desc,.spec{
@@ -145,10 +139,14 @@ td {
 	display:block;
 }
 
+#timeselect{
+	text-align:right;
+	margin-top: 1em;
+}
 
 /* blocks */
 
-#Paper{
+#paper{
 	width: 56em;
 	margin: 2em auto;
 
@@ -172,16 +170,4 @@ td {
 
 	float:left;
 
-}
-
-#Timeselect{
-	text-align:right;
-	margin-top: 1em;
-}
-#time{
-	display: inline;
-}
-
-#time input{
-	height: 1em;
 }
