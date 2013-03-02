@@ -128,7 +128,7 @@ td {
 }
 
 .desc{
-	margin-left: 4em;
+	margin-left: 4em !important; /* Todo: fix this */
 }
 
 .period:not(:first-child):before{
