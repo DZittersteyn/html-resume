@@ -127,10 +127,8 @@ td {
 	margin-left: 3em;
 }
 
-.desc:before{
-	content: "";
-	display: inline-block;
-	width: 4em;
+.desc{
+	margin-left: 4em;
 }
 
 .period:not(:first-child):before{
