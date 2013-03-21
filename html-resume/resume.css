@@ -1,8 +1,6 @@
 body{
 	/* 
-		Background pattern by Jordan Pittman via Subtle Patterns
-		Source: http://subtlepatterns.com/low-contrast-linen/
-		Adapted, brightness and contrast raised (100 & 40 resp.)
+		Background pattern Dark Wood via Subtle Patterns
 	*/
 	background-image: url(img/dark_wood.png);
 	font-family: 'Ubuntu', sans-serif;
@@ -14,6 +12,10 @@ body{
 div.content{
 	overflow:auto;
 	padding-bottom: 1em;
+}
+
+.hidden{
+	display: none;
 }
 
 hr{
@@ -108,7 +110,7 @@ td {
 	font-size: 1em;
 }
 
-.desc,.spec{
+.desc,.spec,.detail{
 	color: #999;
 }
 
@@ -129,6 +131,10 @@ td {
 
 .desc{
 	margin-left: 4em !important; /* Todo: fix this */
+}
+
+.detail{
+	margin-left: 5em !important;
 }
 
 .period:not(:first-child):before{
