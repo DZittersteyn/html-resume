@@ -45,7 +45,7 @@
                 ],
                 "position": {
                     "title": "Master of Science in Computing Science",
-                    "descriptions": [
+                    "responsibilities": [
                         {
                             "title": "Specialization: Computational Science and Visualization"
                         },
@@ -74,7 +74,7 @@
                 ],
                 "position": {
                     "title": "Bachelor of Science in Computing Science",
-                    "descriptions": [
+                    "responsibilities": [
                         {
                             "title": "Minor",
                             "details": [
@@ -105,12 +105,12 @@
                 ],
                 "position": {
                     "title": "6-year Pre-university Education",
-                    "descriptions": [
+                    "responsibilities": [
                         {
                             "title": "Course profile: Nature and Technology"
                         },
                         {
-                            "title": "Main courses: Math, Physics, Chemistry"
+                            "title": "Main courses: Maths, Physics, Chemistry"
                         },
                         {
                             "title": "Electory courses: Biology, Computing Science"
@@ -132,7 +132,7 @@
                 ],
                 "position": {
                     "title": "Software Engineer",
-                    "descriptions": [
+                    "responsibilities": [
                         {
                             "title": "Implemented the Ticketing API",
                             "details": [
@@ -145,6 +145,12 @@
                             "details": [
                                 "Implemented an API that exposes information about events and tickets to third parties, which allows them to promote events through an affiliate program",
                                 "Implemented as HAL+JSON REST API in Python, using Flask."
+                            ]
+                        },
+                        {
+                            "title": "Implemented Time Tracking system",
+                            "details": [
+                                "Implemented a system to synchronize our Sprint board (Trello) with our case management (Fogbugz)"
                             ]
                         }
                     ]
@@ -161,13 +167,13 @@
                 ],
                 "position": {
                     "title": "Student assistant in bachelor courses",
-                    "descriptions": [
-                            {
-                                "title": "Organised and taught practical sessions and lectures"
-                            },
-                            {
-                                "title": "Graded practical and theoretical examinations"
-                            }
+                    "responsibilities": [
+                        {
+                            "title": "Organised and taught practical sessions and lectures"
+                        },
+                        {
+                            "title": "Graded practical and theoretical examinations"
+                        }
                     ]
                 }
             },
@@ -180,319 +186,214 @@
                 ],
                 "position": {
                     "title": "Student assistant in bachelor courses",
-                    "descriptions": [
-                            {
-                                "title": "Organised and taught practical sessions and lectures"
-                            },
-                            {
-                                "title": "Graded practical and theoretical examinations"
-                            }
+                    "responsibilities": [
+                        {
+                            "title": "Organised and taught practical sessions and lectures"
+                        },
+                        {
+                            "title": "Graded practical and theoretical examinations"
+                        }
+                    ]
+                }
+            },
+            {
+                "periods": [
+                    {
+                        "start": "2006-03",
+                        "end": "2008-03"
+                    }
+                    {
+                        "start": "2010-09",
+                        "end": "2011-12"
+                    },
+                ],
+                "position": {
+                    "title": "Educational committee of the study Computing Science",
+                    "responsibilities": [
+                        {
+                            "title": "Represent the student body regarding education"
+                        },
+                        {
+                            "title": "Evaluate and improve the quality of education"
+                        },
+                        {
+                            "title": "Study the influence policies in faculty and university"
+                        }
+                    ]
+                }
+            },
+            {
+                "periods": [
+                    {
+                        "start": "2009-09",
+                        "end": "2010-12"
+                    }
+                ],
+                "position": {
+                    "title": "Assistant promoter for Computing Science",
+                    "responsibilities": [
+                        {
+                            "title": "Organise promotional activities for pre-university students"
+                        }
                     ]
                 }
             }
+        ],
 
+        "Vinea Youth Holidays": [
+            {
+                "periods": [
+                    {
+                        "start": "2005-09",
+                        "end": "2007-10"
+                    }
+                ],
+                "position": {
+                    "title": "Sailing instructor and camp assistant",
+                    "responsibilities": [
+                        {
+                            "title": "Safety and education of children between 12 and 16 years old"
+                        }
+                    ]
+                }
+            }
+        ],
+    },
 
-
-
+    "Volunteer Experience": {
+        "Study Association for Computing Science and Artificial Intelligence (s.v. Cover)": [
+            {
+                "periods": [
+                    {
+                        "start": "2010-10", 
+                        "end": "2012-10"
+                    }
+                ],
+                "position": "Board of advisers",
+                "responsibilities": [
+                    "Provide advice to the board of the association"
+                ]
+            },
+            {
+                "periods": [
+                    {
+                        "start": "2009-10",
+                        "end": "2010-10"
+                    }
+                ],
+                "position": "Board member",
+                "responsibilities": [
+                    "Initiating and maintaining contact with companies, and sponsoring negotiations",
+                    "Design and execute policies for the study association"
+            },
+            {
+                "periods": [
+                    "start": "2008-09",
+                    "end": "2013-02"
+                ],
+                "position": "Association room committee",
+                "responsibilities": [
+                    "Implement an automated point of sale and inventory management system"
+                ]
+            },
+            {
+                "periods": [
+                    {
+                        "start": "2008-09",
+                        "end": "2011-03"
+                    }
+                ]
+                "position": "Editor-in-chief of the association magazine"
+                "responsibilities": [
+                    "Layout, design and  of the magazine",
+                    "Editing of copy from authors"
+                ]
+            }
+        ],
+        "Study Association for Physics and Mathematics (FMF)": [
+            {
+                "periods": [
+                    {
+                        "start": "2005-09", 
+                        "end": "2008-09"
+                    }
+                ],
+                "position": "Yearbook Committee",
+                "responsibilities": [
+                    "Creating a design and layout for the yearbook",
+                    "Editing of copy from authors"
+                ]
+            }
         ]
     }
+
+    "Skills": {
+        "Languages": [
+            "Dutch": {
+                "proficiency": "Native language"
+            },
+            "English": {
+                "proficiency": "Full professional proficiency"
+            }
+        ],
+        "Software Engineering": [
+            "Scrum": {
+                "description": "Working in a team of 15 people using Scrum, within a larger organization.",
+                "tools": [
+                    "Fogbugz",
+                    "Trello"
+                ]
+            },
+            "Continuous Integration": {
+                "description": "Using a development process that includes Continuous Integration.",
+                "tools": [
+                    "Jenkins CI"
+                ]
+            },
+            "REST": {
+                "description": "Designing and developing a REST API to facilitate sales by external parties",
+                "tools": [
+                    "python",
+                    "flask",
+                    "hal+json"
+                ]
+            },
+            "Behaviour Driven Design": {
+
+            }
+        ],
+        "Programming Languages": {
+            "Python": {
+                "experience": "A wide range of applications, from small projects to enterprise systems.",
+                "related": [
+                    "Django",
+                    "SQLAlchemy",
+                    "Flask",
+                    "py.test"
+                ]
+            },
+            "SQL": {
+                "experience": "Querying through ORM's, database migrations."
+            },
+            "Javascript": {
+                "experience": "Interactivity and animations on webpages, One-page-apps."
+                "related": [
+                    "jQuery",
+                    "Backbone"
+                ]
+            },
+            "C/C++": {
+                "experience": "Small applications and teaching."
+            },
+            "Java": {
+                "experience": "Medium sized projects and teaching."
+            }
+
+        }
+    }
+
+
 }
-
-            <tr class="5 15">
-                <th>
-                    <p class="period">
-                        sept 2010
-                        - 
-                        dec 2011
-                    </p> 
-                    <p class="period">
-                        mar 2006
-                        - 
-                        mar 2008
-                    </p> 
-                </th>
-                <td>
-                    <p class="title 1 5 15">Educational committee of the study Computing Science</p>
-                    <p class="spec 1 5 15">Represent the student body regarding education</p>
-                    <p class="spec 5 15">Evaluate and improve the quality of education</p>
-                    <p class="spec 5 15">Study the influence of university and faculty wide policy</p>
-                </td>
-            </tr>
-
-            <tr class="5 15">
-                <th>
-                    <p class="period">
-                        sept 2009
-                        -
-                        dec 2010
-                    </p>
-                </th>
-                <td>
-                    <p class="title">Assistant promoter for Computing Science</p>
-                    <p class="spec">Organise promotional activities for pre-university students</p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="15">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Vinea youth holidays</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>
-                    <p class="period">
-                        sept 2005
-                        - 
-                        aug 2007
-                    </p>
-                </th>
-                <td>
-                    <p class="title">Sailing instructor and camp assistant</p>
-                    <p class="spec 15">Safety and education of children between 12 and 16 years old</p>
-                </td>
-            </tr>
-
-            
-        </tbody>
-    </table>
-
-</div>
-
-
-<div class="content 1 5 15">
-    <h2>Volunteer Experience</h2>
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th>Study Association for Computing Science and Artificial Intelligence: Cover</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="1 5 15">
-                <th>
-                    <p class="period">
-                        oct 2010
-                        - 
-                        oct 2012
-                    </p>
-                </th>
-                <td>
-                    <p class="title">Board of advisors</p>
-                    <p class="spec">Provide advice to the board of the association</p>
-                </td>
-            </tr>
-            <tr class="1 5 15">
-                <th>
-                    <p class="period">
-                        oct 2009
-                        - 
-                        oct 2010
-                    </p>
-                </th>
-                <td>
-                    <p class="title">Board member</p>
-                    <p class="spec">Initiating and maintaining contact with companies, and sponsoring negotiations</p>
-                    <p class="spec">Design and execute policies for the study association</p>
-                </td>
-            </tr>
-            <tr class="15 hidden">
-                <th>
-                    <span class="period">
-                        sept 2009
-                        -
-                        febr 2013
-                    </span>
-                </th>
-                <td>
-                    <p class="title">Promotion of activities</p>
-                    <p class="spec">Make and distribute posters for promotion of activities</p>
-                </td>
-            </tr>
-            <tr class="15 hidden">
-                <th>
-                    <span class="period">
-                        sept 2008
-                        - 
-                        febr 2013
-                    </span>
-                </th>
-                <td>
-                    <p class="title">Association room committee</p>
-                    <p class="spec">Keep the association room clean and open</p>
-                    <p class="spec">Implement an automated point of sale and inventory management system</p>
-                </td>
-            </tr>
-            <tr class="5 15">
-                <th>
-                    <span class="period">
-                        sept 2008
-                        - 
-                        mar 2011
-                    </span>
-                </th>
-                <td>
-                    <p class="title">Association magazine</p>
-                    <p class="spec">Editor-in-chief, Design and Layout</p>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
-    <table class="15 hidden">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Faculty association for Physics and Mathematics</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>
-                    <span class="period">
-                        sept 2005
-                        -
-                        sept 2008
-                    </span>
-                </th>
-                <td>
-                    <p class="title">Yearbook committee</p>
-                    <p class="spec">Design and layout</p>
-                </td>
-            </tr>
-
-        </tbody>
-    </table>
-
-</div>
-
-<div class="content">
-    <h2>Skills</h2>
-    <table class="5 15">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Languages</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Dutch</th>
-                <td>Native language</td>
-            </tr>
-            <tr>
-                <th>English</th>
-                <td>Full professional proficiency</td>
-            </tr>
-
-        </tbody>
-    </table>
-
-    <table class="1 hidden">
-        <tbody>
-            <tr>
-                <th>Languages</th>
-                <td><img src="img/flags/netherlands-flag.png" /></td>
-                <td><img src="img/flags/uk-flag.png" /></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <table class="1 5 15">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Software Enigineering</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th>
-                    Scrum
-                </th>
-                <td>
-                    1 Year: Working in a team of 15 people using Scrum
-                    <br><span class="spec">Trello, Fogbugz</span>
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    CI
-                </th>
-                <td>
-                    1 Year: Working with a development process that included Continuous Integration 
-                    <br><span class="spec">Jenkins CI</span>
-                </td>                                   
-            </tr>
-            <tr>
-                <th>
-                    REST
-                </th>
-                <td>
-                    1 Year: Design and implementation of a REST API to facilitate sales by external parties
-                    <br><span class="spec">flask, hal+json</span>
-                </td>                                   
-            </tr>
-        </tbody>
-    </table>
-
-    
-
-    <table class="5 15">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Programming Languages</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th>Python</th>
-                <td>3 Years: Django, Flask, SQLAlchemy</td>
-            </tr>
-            <tr>
-                <th>Javascript + jQuery</th>
-                <td>3 Years: AJAX, Animations and jQuery UI</td>
-            </tr>
-            <tr>
-                <th>C/C++</th>
-                <td>3 Years: Small projects and teaching</td>
-            </tr>
-            <tr>
-                <th>SQL</th>
-                <td>2 Years: MySQL, ORM's</td>
-            </tr>
-            <tr>
-                <th>Java</th>
-                <td>6 Years: Medium sized projects and teaching</td>
-            </tr>
-            <tr class="15">
-                <th>Haskell</th>
-                <td>Limited experience </td>
-            </tr>
-        </tbody>
-    </table>
-    
-    <table class="1 hidden">
-        <tbody>
-            <tr>
-                <th>Programming Languages</th>
-                <td><img title="python" src="img/programming/python.png"></td>
-                <td><img title="sqlalchemy" src="img/programming/sqlalchemy.png"></td>
-                <td><img title="flask" src="img/programming/flask.png"></td>
-                <td><img title="django" src="img/programming/django.png"></td>
-                <td><img title="javascript" src="img/programming/javascript.png"></td>
-                <td><img title="jquery" src="img/programming/jquery.png"></td>
-                <td><img title="java" src="img/programming/java.png"></td>
-                <td><img title="c" src="img/programming/c.png"></td>
-            </tr>
-        </tbody>
-    </table>
-
     <table class="5 15">
         <thead>
             <tr>
