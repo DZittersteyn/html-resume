@@ -28,7 +28,7 @@
             "label": "Country", 
             "value": "The Netherlands"
         },
-        "emailaddress": {
+        "email": {
             "label": "E-mail address", 
             "value": "Zittersteyn@gmail.com"
         }
@@ -113,7 +113,7 @@
                             "title": "Main courses: Maths, Physics, Chemistry"
                         },
                         {
-                            "title": "Electory courses: Biology, Computing Science"
+                            "title": "Elected courses: Biology, Computing Science"
                         }
                     ]
                 }
@@ -201,11 +201,11 @@
                     {
                         "start": "2006-03",
                         "end": "2008-03"
-                    }
+                    },
                     {
                         "start": "2010-09",
                         "end": "2011-12"
-                    },
+                    }
                 ],
                 "position": {
                     "title": "Educational committee of the study Computing Science",
@@ -257,7 +257,7 @@
                     ]
                 }
             }
-        ],
+        ]
     },
 
     "Volunteer Experience": {
@@ -285,12 +285,13 @@
                 "responsibilities": [
                     "Initiating and maintaining contact with companies, and sponsoring negotiations",
                     "Design and execute policies for the study association"
+                ]
             },
             {
-                "periods": [
+                "periods": {
                     "start": "2008-09",
                     "end": "2013-02"
-                ],
+                },
                 "position": "Association room committee",
                 "responsibilities": [
                     "Implement an automated point of sale and inventory management system"
@@ -302,8 +303,8 @@
                         "start": "2008-09",
                         "end": "2011-03"
                     }
-                ]
-                "position": "Editor-in-chief of the association magazine"
+                ],
+                "position": "Editor-in-chief of the association magazine",
                 "responsibilities": [
                     "Layout, design and  of the magazine",
                     "Editing of copy from authors"
@@ -325,18 +326,18 @@
                 ]
             }
         ]
-    }
+    },
 
     "Skills": {
-        "Languages": [
+        "Languages": {
             "Dutch": {
                 "proficiency": "Native language"
             },
             "English": {
                 "proficiency": "Full professional proficiency"
             }
-        ],
-        "Software Engineering": [
+        },
+        "Software Engineering": {
             "Scrum": {
                 "description": "Working in a team of 15 people using Scrum, within a larger organization.",
                 "tools": [
@@ -361,8 +362,8 @@
             "Behaviour Driven Design": {
 
             }
-        ],
-        "Programming Languages": {
+        },
+        "Programming Languages &amp; Markup": {
             "Python": {
                 "experience": "A wide range of applications, from small projects to enterprise systems.",
                 "related": [
@@ -376,10 +377,17 @@
                 "experience": "Querying through ORM's, database migrations."
             },
             "Javascript": {
-                "experience": "Interactivity and animations on webpages, One-page-apps."
+                "experience": "Interactivity and animations on web pages, One-page-apps.",
                 "related": [
                     "jQuery",
                     "Backbone"
+                ]
+            },
+            "HTML / CSS": {
+                "experience": "Designing, building and maintaining of websites and web-based applications",
+                "related": [
+                    "CSS3",
+                    "HTML5"
                 ]
             },
             "C/C++": {
@@ -387,79 +395,23 @@
             },
             "Java": {
                 "experience": "Medium sized projects and teaching."
+            },
+            "LaTeX": {
+                "experience": "Design and layout of reports, presentations and books"
+            }
+        },
+        "Design": {
+            "Adobe Photoshop / GIMP": {
+                "experience": "Designing posters, mock-ups and websites, retouching pictures"
+            },
+            "Adobe Illustrator": {
+                "experience": "Designing and tracing logos, creating and editing illustrations"
+            },
+            "Adobe InDesign": {
+                "experience": "Layout and design of magazines, books and other documents"
             }
 
         }
+
     }
-
-
 }
-    <table class="5 15">
-        <thead>
-            <tr>
-                <th></th>
-                <th>Design &amp; Markup</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th>
-                    Photoshop / GIMP
-                </th>
-                <td>
-                    6 Years: Designing and making posters and mock-ups, editing pictures
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    Illustrator
-                </th>
-                <td>
-                    4 Years: Designing logos and illustrations
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    Indesign
-                </th>
-                <td>
-                    6 Years: Layout and design of magazines and documents
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    HTML / CSS
-                </th>
-                <td>
-                    2 Years: Building and maintaining of websites and web-based applications
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    LaTeX
-                </th>
-                <td>
-                    5 Years: Writing articles and designing presentations
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-
-    <table class="1 hidden">
-        <tbody>
-            <tr>
-                <th>Design &amp; Markup</th>
-                <td><img title="photoshop" src="img/design/photoshop.png" /></td>
-                <td><img title="illustrator" src="img/design/illustrator.png" /></td>
-                <td><img title="indesign" src="img/design/indesign.png" /></td>
-                <td><img title="latex" src="img/design/latex.png" /></td>
-                <td><img title="html" src="img/design/html.png" /></td>
-                <td><img title="css" src="img/design/css.png" /></td>
-
-            </tr>
-        </tbody>
-    </table>
-
-</div>
-
