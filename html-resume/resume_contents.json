@@ -376,7 +376,7 @@
             "SQL": {
                 "experience": "Querying through ORM's, database migrations."
             },
-            "Javascript": {
+            "JavaScript": {
                 "experience": "Interactivity and animations on web pages, One-page-apps.",
                 "related": [
                     "jQuery",
