@@ -1,35 +1,27 @@
 {
     "Personal data": {
-        "surname": {
-            "label": "Surname", 
+        "Surname": {
             "value": "Zittersteyn"
         },
-        "name": {
-            "label": "Name", 
+        "Name": {
             "value": "Dirk"
         },
-        "birthdate": {
-            "label": "Birthdate", 
+        "Birthdate": {
             "value": "February 28th, 1988"
         },
-        "nationality": {
-            "label": "Nationality", 
+        "Nationality": {
             "value": "Dutch"
         },
-        "phone": {
-            "label": "Phone number", 
+        "Phone number": {
             "value": "(+31) 6 - 46 48 37 78"
         },
-        "address": {
-            "label": "Address", 
+        "Address": {
             "value": "Gorechtkade 115b"
         },
-        "country": {
-            "label": "Country", 
+        "Country": {
             "value": "The Netherlands"
         },
-        "email": {
-            "label": "E-mail address", 
+        "E-mail address": {
             "value": "Zittersteyn@gmail.com"
         }
     },
@@ -158,25 +150,6 @@
             }
         ],
         "University of Groningen": [
-            {
-                "periods": [
-                    {
-                        "start": "2006-09",
-                        "end": "2013-02"
-                    }
-                ],
-                "position": {
-                    "title": "Student assistant in bachelor courses",
-                    "responsibilities": [
-                        {
-                            "title": "Organised and taught practical sessions and lectures"
-                        },
-                        {
-                            "title": "Graded practical and theoretical examinations"
-                        }
-                    ]
-                }
-            },
             {
                 "periods": [
                     {
