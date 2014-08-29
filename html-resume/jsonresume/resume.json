@@ -1,0 +1,144 @@
+{
+  "basics": {
+    "name": "Dirk Zittersteyn",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "Zittersteyn@gmail.com",
+    "phone": "(+31) 6 46 48 37 78",
+    "website": "http://zittersteyn.nl",
+    "summary": "",
+    "location": {
+      "address": "Gorechtkade 115b",
+      "postalCode": "9713BL",
+      "city": "Groningen",
+      "countryCode": "NL",
+      "region": "Groningen"
+    },
+    "profiles": [
+      {
+        "network": "Facebook",
+        "username": "Zittersteyn",
+        "url": "https://www.facebook.com/zittersteyn"
+      },
+      {
+        "network": "GitHub",
+        "username": "DZittersteyn",
+        "url": "https://github.com/DZittersteyn/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Paylogic",
+      "position": "Software Engineer",
+      "website": "http://www.paylogic.com",
+      "startDate": "2013-05-05",
+      "endDate": "",
+      "summary": "As part of the software engineering team of Paylogic, I implemented both internal and external APIs to the paylogic backend. This made it possible for other teams to efficiently implement projects, and allowed us to offer a custom experience to customers. Additionally I served a facilitating function, overseeing task estimation and managing progress tracking",
+      "highlights": [
+        "Oversaw task estimation in a Scrum team",
+        "Created a time tracking system to allow for better measurement of performance",
+        "Implemented a Pythonic API allowing access to the Paylogic backend",
+        "Implemented multiple REST APIs"
+      ]
+    },
+    {
+      "company": "University of Groningen",
+      "position": "Student Assistant",
+      "website": "www.rug.nl",
+      "startDate": "2006-09",
+      "endDate": "2013-02",
+      "summary": "During my time as a student assistant for multiple Bachelor's and Master's courses, I taught classes, supervised lab sessions and graded assignments and exams of groups of 10-30 students. I also helped professors develop course material for courses.",
+      "highlights": [
+        "Created lab sessions for the course Object Oriended Programming",
+        "Taught Software Design and Analysis classes"
+      ]
+    },
+    {
+      "company": "University of Groningen",
+      "position": "Member of the Educational Committee for Computing Science",
+      "website": "www.rug.nl",
+      "startDate": "2006-03",
+      "endDate": "2011-12",
+      "summary": "The members of the Educational Committee hold the responsibility to represent the student body, and to study the influence of faculty- and university-wide policies on the student body.",
+      "highlights": [
+        "On a yearly basis, evaluated the Teaching and Examination Regulations",
+        "Evaluated course quality based on student and teacher feedback"
+      ]
+    },
+    {
+      "company": "University of Groningen",
+      "position": "Promoter for Computing Science",
+      "website": "www.rug.nl",
+      "startDate": "2009-09",
+      "endDate": "2010-12",
+      "summary": "In the promotional committee, I organized activities for pre-university students, in order to make sure they can make an informed decision on what study to choose.",
+      "highlights": [
+        "Created presentations, many of which have been in use long after I left the position",
+        "Presented at numerous events"
+      ]
+    },
+    {
+      "company": "Vinea Youth Holidays",
+      "position": "Sailing teacher and camp assistant",
+      "website": "www.vinea.nl",
+      "startDate": "2005-09",
+      "endDate": "2007-10",
+      "summary": "As certified sailing teacher I taught groups of children sailing technique and safety",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Study association Cover",
+      "position": "Board of advisors",
+      "website": "www.svcover.nl",
+      "startDate": "2010-10",
+      "endDate": "2012-10",
+      "summary": "As part of the board of advisers of the study association, I evaluated the decisions made by the board of the association, giving both immediate and periodical feedback on decisions by and functioning of the board.",
+      "highlights": []
+    },
+    {
+      "organization": "Study association Cover",
+      "position": "Board member",
+      "website": "www.svcover.nl",
+      "startDate": "2009-10",
+      "endDate": "2010-10",
+      "summary": "In the board, my responsibility was to initiate and maintain contact with companies, both to facilitate company-related activities, such as on-location visits, and to maintain a stream of sponsoring for the association.",
+      "highlights": [
+        "Doubled sponsor revene for the association",
+        "Set up a team to facilitate maintain communication with companies",
+        "Headed an effort to professionalize the association"
+      ]
+    },
+    {
+      "organization": "Study association Cover",
+      "position": "Association room committee",
+      "website": "www.svcover.nl",
+      "startDate": "2008-09",
+      "endDate": "2013-02",
+      "summary": "For sales in the association room, I implemented an inventory management system, allowing automated debit collection and sales tracking.",
+      "highlights": [
+        "Greatly reduced effort needed to manage inventory",
+        "Elimitated cash from the association room, reducing risk of theft",
+        "Implemented tools to allow analysis of gains and losses."
+      ]
+    },
+    {
+      "organization": "Study association Cover",
+      "position": "Editor-in-chief of the association magazine",
+      "website": "www.svcover.nl",
+      "startDate": "2008-09",
+      "endDate": "2011-03",
+      "summary": "As the editor-in-chief, I headed an effort to change the association magazine to ",
+      "highlights": []
+    }
+  ],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
