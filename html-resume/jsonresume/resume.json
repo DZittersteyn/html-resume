@@ -38,7 +38,7 @@
       "highlights": [
         "Oversaw task estimation in a Scrum team",
         "Created a time tracking system to allow for better measurement of performance",
-        "Implemented a Pythonic API allowing access to the Paylogic backend",
+        "Implemented an API allowing access to the Paylogic backend",
         "Implemented multiple REST APIs"
       ]
     },
@@ -106,7 +106,7 @@
       "endDate": "2010-10",
       "summary": "In the board, my responsibility was to initiate and maintain contact with companies, both to facilitate company-related activities, such as on-location visits, and to maintain a stream of sponsoring for the association.",
       "highlights": [
-        "Doubled sponsor revene for the association",
+        "Doubled sponsor revenue for the association",
         "Set up a team to facilitate maintain communication with companies",
         "Headed an effort to professionalize the association"
       ]
@@ -134,11 +134,131 @@
       "highlights": []
     }
   ],
-  "education": [],
+  "education": [
+    {
+      "institution": "University of Groningen",
+      "area": "Scientific Visualization & Computer Graphics",
+      "studyType": "Masters",
+      "startDate": "2011-02",
+      "endDate": "2013-02",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Groningen",
+      "area": "Computing Science",
+      "studyType": "Bachelors",
+      "startDate": "2005-09",
+      "endDate": "2011-02",
+      "gpa": "",
+      "courses": []
+    }
+  ],
   "awards": [],
   "publications": [],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Scrum",
+      "level": "Worked in a team of 5 people using Scrum, in cooperation with two similar teams.",
+      "keywords": [
+        "Estimation",
+        "Fogbugz",
+        "Trello"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "Worked with three teams on multiple projects that were integrated using CI.",
+      "keywords": [
+        "Jenkins CI",
+        "Unit tests",
+        "Integration tests",
+        "TDD",
+        "BDD"
+      ]
+    },
+    {
+      "name": "REST",
+      "level": "Designing and developing a REST API to facilitate sales by external parties",
+      "keywords": [
+        "Discoverability",
+        "HATEOAS",
+        "hal+json"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "A wide range of applications, from small projects to enterprise systems.",
+      "keywords": [
+        "Django",
+        "SQLAlchemy",
+        "Flask",
+        "Py.test"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Querying through ORM's, database migrations.",
+      "keywords": [
+        "ORM",
+        "SQLite",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Interactivity and animations on web pages, One-page-apps.",
+      "keywords": [
+        "jQuery",
+        "Backbone"
+      ]
+    },
+    {
+      "name": "HTML/CSS",
+      "level": "Designing, building and maintaining of websites and web-based applications",
+      "keywords": [
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "Java",
+      "level": "Medium applications and teaching",
+      "keywords": [
+        "Swing",
+        "AWT",
+        ""
+      ]
+    },
+    {
+      "name": "C/C++",
+      "level": "Small applications and teaching",
+      "keywords": []
+    },
+    {
+      "name": "LaTeX",
+      "level": "Design and layout of reports, presentations and books",
+      "keywords": [
+        "Typography",
+        "Design"
+      ]
+    },
+    {
+      "name": "Adobe Photoshop / GIMP",
+      "level": "Designing posters, mock-ups and websites, retouching pictures",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native Language"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional fluency"
+    }
+  ],
   "interests": [],
   "references": []
 }
