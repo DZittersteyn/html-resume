@@ -3,9 +3,9 @@
     "name": "Dirk Zittersteyn",
     "label": "Software Engineer",
     "picture": "",
-    "email": "Zittersteyn@gmail.com",
+    "email": "zittersteyn@gmail.com",
     "phone": "(+31) 6 46 48 37 78",
-    "website": "http://zittersteyn.nl",
+    "website": "http://www.zittersteyn.nl",
     "summary": "",
     "location": {
       "address": "Gorechtkade 115b",
@@ -33,7 +33,6 @@
       "position": "Software Engineer",
       "website": "http://www.paylogic.com",
       "startDate": "2013-05-05",
-      "endDate": "",
       "summary": "As part of the software engineering team of Paylogic, I implemented both internal and external APIs to the paylogic backend. This made it possible for other teams to efficiently implement projects, and allowed us to offer a custom experience to customers. Additionally I served a facilitating function, overseeing task estimation and managing progress tracking",
       "highlights": [
         "Oversaw task estimation in a Scrum team",
@@ -46,8 +45,8 @@
       "company": "University of Groningen",
       "position": "Student Assistant",
       "website": "www.rug.nl",
-      "startDate": "2006-09",
-      "endDate": "2013-02",
+      "startDate": "2006-09-01",
+      "endDate": "2013-02-01",
       "summary": "During my time as a student assistant for multiple Bachelor's and Master's courses, I taught classes, supervised lab sessions and graded assignments and exams of groups of 10-30 students. I also helped professors develop course material for courses.",
       "highlights": [
         "Created lab sessions for the course Object Oriended Programming",
@@ -58,8 +57,8 @@
       "company": "University of Groningen",
       "position": "Member of the Educational Committee for Computing Science",
       "website": "www.rug.nl",
-      "startDate": "2006-03",
-      "endDate": "2011-12",
+      "startDate": "2006-03-01",
+      "endDate": "2011-12-01",
       "summary": "The members of the Educational Committee hold the responsibility to represent the student body, and to study the influence of faculty- and university-wide policies on the student body.",
       "highlights": [
         "On a yearly basis, evaluated the Teaching and Examination Regulations",
@@ -70,8 +69,8 @@
       "company": "University of Groningen",
       "position": "Promoter for Computing Science",
       "website": "www.rug.nl",
-      "startDate": "2009-09",
-      "endDate": "2010-12",
+      "startDate": "2009-09-01",
+      "endDate": "2010-12-01",
       "summary": "In the promotional committee, I organized activities for pre-university students, in order to make sure they can make an informed decision on what study to choose.",
       "highlights": [
         "Created presentations, many of which have been in use long after I left the position",
@@ -82,8 +81,8 @@
       "company": "Vinea Youth Holidays",
       "position": "Sailing teacher and camp assistant",
       "website": "www.vinea.nl",
-      "startDate": "2005-09",
-      "endDate": "2007-10",
+      "startDate": "2005-09-01",
+      "endDate": "2007-10-01",
       "summary": "As certified sailing teacher I taught groups of children sailing technique and safety",
       "highlights": []
     }
@@ -93,8 +92,8 @@
       "organization": "Study association Cover",
       "position": "Board of advisors",
       "website": "www.svcover.nl",
-      "startDate": "2010-10",
-      "endDate": "2012-10",
+      "startDate": "2010-10-01",
+      "endDate": "2012-10-01",
       "summary": "As part of the board of advisers of the study association, I evaluated the decisions made by the board of the association, giving both immediate and periodical feedback on decisions by and functioning of the board.",
       "highlights": []
     },
@@ -102,8 +101,8 @@
       "organization": "Study association Cover",
       "position": "Board member",
       "website": "www.svcover.nl",
-      "startDate": "2009-10",
-      "endDate": "2010-10",
+      "startDate": "2009-10-01",
+      "endDate": "2010-10-01",
       "summary": "In the board, my responsibility was to initiate and maintain contact with companies, both to facilitate company-related activities, such as on-location visits, and to maintain a stream of sponsoring for the association.",
       "highlights": [
         "Doubled sponsor revenue for the association",
@@ -115,8 +114,8 @@
       "organization": "Study association Cover",
       "position": "Association room committee",
       "website": "www.svcover.nl",
-      "startDate": "2008-09",
-      "endDate": "2013-02",
+      "startDate": "2008-09-01",
+      "endDate": "2013-02-01",
       "summary": "For sales in the association room, I implemented an inventory management system, allowing automated debit collection and sales tracking.",
       "highlights": [
         "Greatly reduced effort needed to manage inventory",
@@ -128,8 +127,8 @@
       "organization": "Study association Cover",
       "position": "Editor-in-chief of the association magazine",
       "website": "www.svcover.nl",
-      "startDate": "2008-09",
-      "endDate": "2011-03",
+      "startDate": "2008-09-01",
+      "endDate": "2011-03-01",
       "summary": "As the editor-in-chief, I headed an effort to change the association magazine to ",
       "highlights": []
     }
@@ -139,8 +138,8 @@
       "institution": "University of Groningen",
       "area": "Scientific Visualization & Computer Graphics",
       "studyType": "Masters",
-      "startDate": "2011-02",
-      "endDate": "2013-02",
+      "startDate": "2011-02-01",
+      "endDate": "2013-02-01",
       "gpa": "",
       "courses": []
     },
@@ -148,8 +147,8 @@
       "institution": "University of Groningen",
       "area": "Computing Science",
       "studyType": "Bachelors",
-      "startDate": "2005-09",
-      "endDate": "2011-02",
+      "startDate": "2005-09-01",
+      "endDate": "2011-02-01",
       "gpa": "",
       "courses": []
     }
@@ -227,13 +226,15 @@
       "keywords": [
         "Swing",
         "AWT",
-        ""
+        "jUnit"
       ]
     },
     {
       "name": "C/C++",
       "level": "Small applications and teaching",
-      "keywords": []
+      "keywords": [
+        "OpenGL"
+      ]
     },
     {
       "name": "LaTeX",
@@ -246,6 +247,16 @@
     {
       "name": "Adobe Photoshop / GIMP",
       "level": "Designing posters, mock-ups and websites, retouching pictures",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Illustrator",
+      "level": "Designing and tracing logos, creating and editing illustrations",
+      "keywords": []
+    },
+    {
+      "name": "Adobe InDesign",
+      "level": "Layout and design of magazines, books and other documents",
       "keywords": []
     }
   ],
